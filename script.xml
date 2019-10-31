@@ -1,5 +1,5 @@
 <script>
-<header name="Proof of Concept THN Script Functionality" savesafe="true">
+<header name="Proof of Concept THN Scripts" savesafe="true">
 <scriptversion>
 1.4
 </scriptversion>
@@ -7,10 +7,10 @@
 Rupert Walker
 </author>
 <modurl>
-
+https://gitlab.com/IrateRedKite/freelancer-proof-of-concept-thn-scripts
 </modurl>
 <description>
-
+Demonstrates a few key concepts with Freelancer's thn script files using lua 3.2 to do some clever things. All scripts are annotated. Please feel free to re-use any of these as the basis for your own scripts.
 </description>
 </header>
 </script>
