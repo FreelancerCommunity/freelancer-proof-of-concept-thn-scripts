@@ -1,7 +1,8 @@
 # Getting Started 
-A set of basic alternate menu screens for Freelancer. Please feel free to use these in your mod with credit, or use them as the basis for your own custom menu screens!
+A series of proof of concept thn scripts for the game Freelancer.
 
-Please note that you should be able to use this mod with vanilla Freelancer, as well as with multiplayer without issue. It only changes the menu screens.
+* li_01_cityscape_ambi_day_01.thn - It only rains on Manhattan after 14:25 (The game uses your system time.) To see this in action, simply adjust the time values, then reload the script across your chosen time by returning to a menu or undocking and re-docking.
+* li_01_cityscape_ambi_day_01.thn - This script also shows how it is possible to output variables from a thn script into a .txt file, as well as input them. Both files, test_input.txt and test_output.txt can be found in the EXE folder.
 
 ## INSTALLATION
 
