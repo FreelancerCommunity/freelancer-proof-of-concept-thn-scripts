@@ -2432,6 +2432,34 @@ entities =
 		}
 	},
 	--Entity section for ku_destroyer ends.
+	--Entity section for ku_battleship starts.
+	--Entity section for ku_battleship ends.
+	--Entity section for br_gunboat starts.
+	--Entity section for br_gunboat ends.
+	--Entity section for br_destroyer starts.
+	--Entity section for br_destroyer ends.
+	--Entity section for br_battleship starts.
+	--Entity section for br_battleship ends.
+	--Entity section for or_battleship starts.
+	--Entity section for or_battleship ends.
+	--Entity section for prison_liner starts.
+	--Entity section for prison_liner ends.
+	--Entity section for luxury_liner starts.
+	--Entity section for luxury_liner ends.
+	--Entity section for heavy_lifter starts.
+	--Entity section for heavy_lifter ends.
+	--Entity section for freight_train starts.
+	--Entity section for freight_train ends.
+	--Entity section for transport_small starts.
+	--Entity section for transport_small ends.
+	--Entity section for transport_large starts.
+	--Entity section for transport_large ends.
+	--Entity section for transport_armored starts.
+	--Entity section for transport_armored ends.
+	--Entity section for repair_ship starts.
+	--Entity section for repair_ship ends.
+	--Entity section for asteroid_miner starts.
+	--Entity section for asteroid_miner ends.
 }
 
 events =
@@ -4152,6 +4180,34 @@ events =
 		}
 	},
 	--Events section for ku_destroyer ends.
+	--Events section for ku_battleship starts.
+	--Events section for ku_battleship ends.
+	--Events section for br_gunboat starts.
+	--Events section for br_gunboat ends.
+	--Events section for br_destroyer starts.
+	--Events section for br_destroyer ends.
+	--Events section for br_battleship starts.
+	--Events section for br_battleship ends.
+	--Events section for or_battleship starts.
+	--Events section for or_battleship ends.
+	--Events section for prison_liner starts.
+	--Events section for prison_liner ends.
+	--Events section for luxury_liner starts.
+	--Events section for luxury_liner ends.
+	--Events section for heavy_lifter starts.
+	--Events section for heavy_lifter ends.
+	--Events section for freight_train starts.
+	--Events section for freight_train ends.
+	--Events section for transport_small starts.
+	--Events section for transport_small ends.
+	--Events section for transport_large starts.
+	--Events section for transport_large ends.
+	--Events section for transport_armored starts.
+	--Events section for transport_armored ends.
+	--Events section for repair_ship starts.
+	--Events section for repair_ship ends.
+	--Events section for asteroid_miner starts.
+	--Events section for asteroid_miner ends.
 	{
 		0,
 		START_SPATIAL_PROP_ANIM, 
