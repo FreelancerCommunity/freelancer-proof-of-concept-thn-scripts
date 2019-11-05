@@ -2039,6 +2039,399 @@ entities =
 		}
 	},
 	--Entity section for ku_gunboat ends.
+	--Entity section for ku_destroyer starts.
+	{
+		entity_name = "ku_destroyer_a",
+		type = COMPOUND,
+		template_name = "ku_destroyer",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, -100 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Spaceship"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_engine_1",
+		type = PSYS,
+		template_name = "gf_ku_largeengine02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_engine_2",
+		type = PSYS,
+		template_name = "gf_ku_largeengine02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_engine_3",
+		type = PSYS,
+		template_name = "gf_ku_largeengine02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_1",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_2",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_3",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_4",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_5",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_6",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_7",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_8",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_9",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_10",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_11",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_12",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "ku_destroyer_a_turret_13",
+		type = COMPOUND,
+		template_name = "ku_destroyer_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	--Entity section for ku_destroyer ends.
 }
 
 events =
@@ -3455,6 +3848,310 @@ events =
 		}
 	},
 	--Events section for ku_gunboat ends.
+	--Events section for ku_destroyer starts.
+	{
+		0,
+		START_PSYS, 
+		{
+			"ku_destroyer_a_engine_1"
+		},
+		{
+			duration = 1000
+		}
+	},
+	{
+		0,
+		START_PSYS, 
+		{
+			"ku_destroyer_a_engine_2"
+		},
+		{
+			duration = 1000
+		}
+	},
+	{
+		0,
+		START_PSYS, 
+		{
+			"ku_destroyer_a_engine_3"
+		},
+		{
+			duration = 1000
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_engine_1",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_engine_2",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_engine_3",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_1",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K1_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_2",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K1_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_3",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K2_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_4",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K2_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_5",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K2_03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_6",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K2_04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_7",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K2_05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_8",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K4_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_9",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K4_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_10",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K4_03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_11",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K4_04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_12",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K4_05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"ku_destroyer_a_turret_13",
+			"ku_destroyer_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_K4_06",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	--Events section for ku_destroyer ends.
 	{
 		0,
 		START_SPATIAL_PROP_ANIM, 
@@ -3555,6 +4252,25 @@ events =
 		START_SPATIAL_PROP_ANIM, 
 		{
 			"ku_gunboat_a"
+		},
+		{
+			duration = 60,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot =
+				{
+					360,
+					NEG_Y_AXIS
+				}
+			}
+		}
+	},
+	{
+		0,
+		START_SPATIAL_PROP_ANIM, 
+		{
+			"ku_destroyer_a"
 		},
 		{
 			duration = 60,
