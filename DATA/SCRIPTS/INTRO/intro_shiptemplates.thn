@@ -139,6 +139,215 @@ entities =
 			No_Fog = "Y"
 		}
 	},
+	--Entity section for rh_gunboat starts.
+	{
+		entity_name = "rh_gunboat_a",
+		type = COMPOUND,
+		template_name = "rh_gunboat",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, -150 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Spaceship"
+		}
+	},
+	{
+		entity_name = "rh_gunboat_a_engine",
+		type = PSYS,
+		template_name = "gf_rh_largeengine02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "rh_gunboat_a_turret_1",
+		type = COMPOUND,
+		template_name = "rh_gunboat_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_gunboat_a_turret_2",
+		type = COMPOUND,
+		template_name = "rh_gunboat_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_gunboat_a_turret_3",
+		type = COMPOUND,
+		template_name = "rh_gunboat_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_gunboat_a_turret_4",
+		type = COMPOUND,
+		template_name = "rh_gunboat_missile_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_gunboat_a_turret_5",
+		type = COMPOUND,
+		template_name = "rh_gunboat_missile_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_gunboat_a_turret_6",
+		type = COMPOUND,
+		template_name = "rh_gunboat_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_gunboat_a_turret_7",
+		type = COMPOUND,
+		template_name = "rh_gunboat_forward_gun01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	--Entity section for rh_gunboat ends.
 	--Entity section for rh_cruiser starts.
 	{
 		entity_name = "rh_cruiser_a",
@@ -150,7 +359,7 @@ entities =
 		flags = LIT_DYNAMIC+LIT_AMBIENT,
 		spatialprops =
 		{
-			pos = { 0, 0, -500 },
+			pos = { 0, 1000, -500 },
 			orient =
 			{
 				{ 1, 0, 0 },
@@ -567,6 +776,154 @@ events =
 			"camera_1"
 		}
 	},
+	--Events section for rh_gunboat starts.
+	{
+		0,
+		START_PSYS, 
+		{
+			"rh_gunboat_a_engine"
+		},
+		{
+			duration = 1000
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_gunboat_a_engine",
+			"rh_gunboat_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_gunboat_a_turret_1",
+			"rh_gunboat_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R3_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_gunboat_a_turret_2",
+			"rh_gunboat_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_gunboat_a_turret_3",
+			"rh_gunboat_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_gunboat_a_turret_4",
+			"rh_gunboat_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_gunboat_a_turret_5",
+			"rh_gunboat_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_gunboat_a_turret_6",
+			"rh_gunboat_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_gunboat_a_turret_7",
+			"rh_gunboat_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpWeapon01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	--Events section for rh_gunboat ends.
 	--Events section for rh_cruiser starts.
 	{
 		0,
@@ -575,7 +932,7 @@ events =
 			"rh_cruiser_a_engine"
 		},
 		{
-			duration = 1200
+			duration = 1000
 		}
 	},
 	{
@@ -873,6 +1230,25 @@ events =
 		START_SPATIAL_PROP_ANIM, 
 		{
 			"rh_cruiser_a"
+		},
+		{
+			duration = 60,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot =
+				{
+					360,
+					NEG_Y_AXIS
+				}
+			}
+		}
+	},
+	{
+		0,
+		START_SPATIAL_PROP_ANIM, 
+		{
+			"rh_gunboat_a"
 		},
 		{
 			duration = 60,
