@@ -139,7 +139,422 @@ entities =
 			No_Fog = "Y"
 		}
 	},
-	--Ships, their turrets and effects are defined here.
+	--Entity section for rh_cruiser starts.
+	{
+		entity_name = "rh_cruiser_a",
+		type = COMPOUND,
+		template_name = "rh_cruiser",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, -500 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Spaceship"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_engine",
+		type = PSYS,
+		template_name = "gf_rh_largeengine02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_1",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_2",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_3",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_4",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_5",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_6",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_7",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_8",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_9",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_10",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_11",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_12",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_13",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_14",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_turret_15",
+		type = COMPOUND,
+		template_name = "rh_cruiser_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_cruiser_a_radar",
+		type = COMPOUND,
+		template_name = "rtcprop_hardware_co_stealth1",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, -10 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	--Entity section for rh_cruiser ends.
 }
 
 events =
@@ -150,6 +565,326 @@ events =
 		{
 			"monitor_1",
 			"camera_1"
+		}
+	},
+	--Events section for rh_cruiser starts.
+	{
+		0,
+		START_PSYS, 
+		{
+			"rh_cruiser_a_engine"
+		},
+		{
+			duration = 1200
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_engine",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_1",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R1_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_2",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R2_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_3",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R2_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_4",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R2_03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_5",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R2_04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_6",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R2_05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_7",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R2_06",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_8",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R3_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_9",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R3_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_10",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R4_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION + LOOK_AT
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_11",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R4_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_12",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R4_03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_13",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R4_04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_14",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R4_05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_turret_15",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPTurret_R4_06",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_cruiser_a_radar",
+			"rh_cruiser_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HPRadar",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	--Events section for rh_cruiser ends.
+	{
+		0,
+		START_SPATIAL_PROP_ANIM, 
+		{
+			"rh_cruiser_a"
+		},
+		{
+			duration = 60,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot =
+				{
+					360,
+					NEG_Y_AXIS
+				}
+			}
 		}
 	},	
 }
