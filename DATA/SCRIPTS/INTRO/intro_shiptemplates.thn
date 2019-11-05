@@ -150,7 +150,7 @@ entities =
 		flags = LIT_DYNAMIC+LIT_AMBIENT,
 		spatialprops =
 		{
-			pos = { 0, 0, -150 },
+			pos = { 0, 1000, -500 },
 			orient =
 			{
 				{ 1, 0, 0 },
@@ -359,7 +359,7 @@ entities =
 		flags = LIT_DYNAMIC+LIT_AMBIENT,
 		spatialprops =
 		{
-			pos = { 0, 1000, -500 },
+			pos = { 0, 0, -150 },
 			orient =
 			{
 				{ 1, 0, 0 },
@@ -559,7 +559,7 @@ entities =
 	{
 		entity_name = "rh_cruiser_a_turret_8",
 		type = COMPOUND,
-		template_name = "rh_cruiser_turret04",
+		template_name = "rh_cruiser_turret03",
 		lt_grp = 0,
 		srt_grp = 0,
 		usr_flg = 0,
@@ -582,7 +582,7 @@ entities =
 	{
 		entity_name = "rh_cruiser_a_turret_9",
 		type = COMPOUND,
-		template_name = "rh_cruiser_turret04",
+		template_name = "rh_cruiser_turret03",
 		lt_grp = 0,
 		srt_grp = 0,
 		usr_flg = 0,
@@ -961,7 +961,7 @@ events =
 		},
 		{
 			duration = 1000,
-			offset = { 0, 0, 0 },
+			offset = { 0, -2, 0 },
 			up = Y_AXIS,
 			front = NEG_Z_AXIS,
 			target_part = "HPTurret_R1_01",
@@ -1046,7 +1046,7 @@ events =
 		},
 		{
 			duration = 1000,
-			offset = { 0, 0, 0 },
+			offset = { 0, -2, 0 },
 			up = Y_AXIS,
 			front = NEG_Z_AXIS,
 			target_part = "HPTurret_R2_05",
