@@ -1,0 +1,155 @@
+--For orientation of objects, use this link to quickly do the maths on how much to rotate things: https://www.andre-gaschler.com/rotationconverter/
+
+duration = 1000
+entities =
+{
+	{
+		entity_name = "scene_shiptemplates",
+		type = SCENE,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		up = Y_AXIS,
+		front = Z_AXIS,
+		ambient = { 128, 128, 128 }
+	},
+	{
+		entity_name = "camera_1",
+		type = CAMERA,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		cameraprops =
+		{
+			fovh = 35,
+			hvaspect = 1.333333,
+			nearplane = 1,
+			farplane = 1000000
+		}
+	},
+	{
+		entity_name = "monitor_1",
+		type = MONITOR,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0
+	},
+	--Lighting is defined below here.
+	{
+		entity_name = "light_1",
+		type = LIGHT,
+		template_name = "",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		lightprops =
+		{
+			on = Y,
+			color = { 255, 255, 255 },
+			diffuse = { 0.207843, 0.490196, 0.462745 },
+			specular = { 0, 0, 0 },
+			ambient = { 0, 0, 0 },
+			direction = { 0, 0, 1 },
+			range = 20,
+			cutoff = 30.99996,
+			type = L_DIRECT,
+			theta = 20.999987,
+			atten = { 1, 0, 0.04 }
+		}
+	},	
+	--Static and semi-static entities are defined below here.
+	{
+		entity_name = "starsphere_li01_stars",
+		type = COMPOUND,
+		template_name = "starsphere_li01_stars",
+		lt_grp = 25,
+		srt_grp = -100,
+		usr_flg = 1,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop",
+			No_Fog = "Y"
+		}
+	},
+	{
+		entity_name = "starsphere_li01",
+		type = COMPOUND,
+		template_name = "starsphere_li01",
+		lt_grp = 25,
+		srt_grp = -100,
+		usr_flg = 1,
+		flags = LIT_DYNAMIC,
+		spatialprops =
+		{
+			pos = { 0, 0, 0 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Prop",
+			No_Fog = "Y"
+		}
+	},
+	--Ships, their turrets and effects are defined here.
+}
+
+events =
+{
+	{
+		0, 
+		SET_CAMERA,
+		{
+			"monitor_1",
+			"camera_1"
+		}
+	},	
+}
