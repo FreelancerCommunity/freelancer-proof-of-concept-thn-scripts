@@ -1345,6 +1345,539 @@ entities =
 		}
 	},
 	--Entity section for rh_cruiser ends.
+	--Entity section for rh_battleship starts.
+{
+		entity_name = "rh_battleship_a",
+		type = COMPOUND,
+		template_name = "rh_battleship",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, -600 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Spaceship"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_engine",
+		type = PSYS,
+		template_name = "gf_rh_largeengine03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC + LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		psysprops =
+		{
+			sparam = 0
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_1",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_2",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_3",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_4",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_5",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_6",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_7",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_8",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret02",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_9",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_10",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_11",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_12",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_13",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_14",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret03",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_15",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_16",
+		type = COMPOUND,
+		template_name = "rh_battleship_flak_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_17",
+		type = COMPOUND,
+		template_name = "rh_battleship_flak_turret01",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_18",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_19",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_20",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	{
+		entity_name = "rh_battleship_a_turret_21",
+		type = COMPOUND,
+		template_name = "rh_battleship_turret04",
+		lt_grp = 0,
+		srt_grp = 0,
+		usr_flg = 0,
+		flags = LIT_DYNAMIC+LIT_AMBIENT,
+		spatialprops =
+		{
+			pos = { 0, 0, 1000 },
+			orient =
+			{
+				{ 1, 0, 0 },
+				{ 0, 1, 0 },
+				{ 0, 0, 1 }
+			}
+		},
+		userprops =
+		{
+			category = "Equipment"
+		}
+	},
+	
+	
+	--Entity section for rh_battleship ends.
 }
 
 events =
@@ -2251,6 +2784,392 @@ events =
 		}
 	},
 	--Events section for rh_cruiser ends.
+	--Events section for rh_battleship starts.
+	{
+		0,
+		START_PSYS, 
+		{
+			"rh_battleship_a_engine"
+		},
+		{
+			duration = 1000
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_engine",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "hpengine01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+		{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_1",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R1_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_2",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R1_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_3",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R1_03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_4",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R1_04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_5",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R2_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_6",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R2_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_7",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R2_03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_8",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R2_04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_9",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R3_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_10",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R3_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_11",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R3_03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_12",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R3_04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_13",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R3_05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_14",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R3_06",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_15",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_01",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_16",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_02",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_17",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_03",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_18",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_04",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_19",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_05",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_20",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_06",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	{
+		0,
+		ATTACH_ENTITY,
+		{
+			"rh_battleship_a_turret_21",
+			"rh_battleship_a"
+		},
+		{
+			duration = 1000,
+			offset = { 0, 0, 0 },
+			up = Y_AXIS,
+			front = NEG_Z_AXIS,
+			target_part = "HpTurret_R4_07",
+			target_type = HARDPOINT,
+			flags = POSITION + ORIENTATION
+		}
+	},
+	--Events section for rh_battleship ends.
 	{
 		0,
 		START_SPATIAL_PROP_ANIM, 
@@ -2313,6 +3232,25 @@ events =
 		START_SPATIAL_PROP_ANIM, 
 		{
 			"li_battleship_a"
+		},
+		{
+			duration = 60,
+			target_type = ROOT,
+			spatialprops =
+			{
+				axisrot =
+				{
+					360,
+					NEG_Y_AXIS
+				}
+			}
+		}
+	},
+	{
+		0,
+		START_SPATIAL_PROP_ANIM, 
+		{
+			"rh_battleship_a"
 		},
 		{
 			duration = 60,
