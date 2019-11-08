@@ -1,5 +1,6 @@
 --For orientation of objects, use this link to quickly do the maths on how much to rotate things: https://www.andre-gaschler.com/rotationconverter/
 --This script functions as a library for 'equipped' ships in Freelancer lua scripts. All loadouts are derived from either loadouts.ini or loadouts_special.ini
+--Take everything between the two sets of comments for each script. For example, to copy li_cruiser into your scene, copy lines 145 to 445 into your entities section, and lines 3421 to 3666 into your events section.
 --When copying a template, ensure you grab the events section as well as the entities section. Please feel free to copy and paste any of these entries into your own scripts to save time!
 
 duration = 1000
