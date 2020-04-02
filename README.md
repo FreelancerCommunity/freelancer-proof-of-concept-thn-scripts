@@ -8,7 +8,7 @@ A series of proof of concept thn scripts for the game Freelancer.
 ## INSTALLATION
 
 1. Download and install Freelancer Mod Manager 2.0 from [here](https://the-starport.net/freelancer/download/visit.php?cid=1&lid=2706)
-2. Download [freelancer-proof-of-concept-thn-scripts.flmod](https://github.com/IrateRedKite/freelancer-proof-of-concept-thn-scripts/raw/master/freelancer-proof-of-concept-thn-scripts.flmod) and open it.
+2. Download the latest release from [here](https://github.com/IrateRedKite/freelancer-proof-of-concept-thn-scripts/releases) and open it.
 3. Enable the Proof of Concept THN Scripts in Freelancer Mod Manager
 
 ## CONTRIBUTING AND REUSING
